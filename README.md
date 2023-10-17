@@ -7,12 +7,12 @@ if you have any questions feel free to reach out.
 
 ## Tutorials
 
-1. [Android Studio]()
-2. [TeleOp Program Structure]()
-3. [`DcMotorSimple`]()
-4. [`hardwareMap`]()
-5. [`gamepad`]()
-6. [Tank Drive]()
+1. [Android Studio](https://www.youtube.com/watch?v=EV5ElPDFETs).
+2. [TeleOp Program Structure](https://www.youtube.com/watch?v=HurIL-iAeNc).
+3. [`DcMotorSimple`](https://www.youtube.com/watch?v=-5n-uBSMpQM).
+4. [`hardwareMap`](https://www.youtube.com/watch?v=qb0cmBP1rPk).
+5. [`gamepad`](https://www.youtube.com/watch?v=NbxXf26Urp8).
+6. [Tank Drive](https://www.youtube.com/watch?v=Fp9wZ0HqFnM).
 
 ## Examples
 
