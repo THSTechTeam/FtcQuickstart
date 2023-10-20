@@ -13,6 +13,7 @@ if you have any questions feel free to reach out.
 4. [`hardwareMap`](https://www.youtube.com/watch?v=qb0cmBP1rPk).
 5. [`gamepad`](https://www.youtube.com/watch?v=NbxXf26Urp8).
 6. [Tank Drive](https://www.youtube.com/watch?v=Fp9wZ0HqFnM).
+7. [Mecanum Drive](https://www.youtube.com/watch?v=4y9H8SnfVDI).
 
 ## Examples
 
