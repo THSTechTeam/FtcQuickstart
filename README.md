@@ -17,6 +17,7 @@ if you have any questions feel free to reach out.
 6. [Tank Drive](https://www.youtube.com/watch?v=Fp9wZ0HqFnM).
 7. [Mecanum Drive](https://www.youtube.com/watch?v=4y9H8SnfVDI).
 8. [Drive Power Scaling](https://www.youtube.com/watch?v=CkzCgtoeUMs).
+9. [`Deadline` & Drive Power Toggling](https://www.youtube.com/watch?v=06dOk1S6oEg).
 
 ## Examples
 
