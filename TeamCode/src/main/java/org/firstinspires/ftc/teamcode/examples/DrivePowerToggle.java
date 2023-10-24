@@ -12,17 +12,17 @@ import java.util.concurrent.TimeUnit;
 public class DrivePowerToggle extends LinearOpMode {
     @Override
     public void runOpMode() {
-        DcMotorSimple leftFront = hardwareMap.get(DcMotorSimple.class, "leftFront");
-        DcMotorSimple leftBack = hardwareMap.get(DcMotorSimple.class, "leftBack");
+        DcMotorSimple leftFront  = hardwareMap.get(DcMotorSimple.class, "leftFront");
+        DcMotorSimple leftBack   = hardwareMap.get(DcMotorSimple.class, "leftBack");
         DcMotorSimple rightFront = hardwareMap.get(DcMotorSimple.class, "rightFront");
-        DcMotorSimple rightBack = hardwareMap.get(DcMotorSimple.class, "rightBack");
+        DcMotorSimple rightBack  = hardwareMap.get(DcMotorSimple.class, "rightBack");
 
         leftFront.setDirection(DcMotorSimple.Direction.REVERSE);
         leftBack.setDirection(DcMotorSimple.Direction.REVERSE);
 
         Deadline gamepadRateLimit = new Deadline(500, TimeUnit.MILLISECONDS);
-        double highPower = 0.8;
         double lowPower = 0.6;
+        double highPower = 0.8;
         double currentPower = lowPower;
 
         waitForStart();
@@ -35,10 +35,10 @@ public class DrivePowerToggle extends LinearOpMode {
             double max = Math.max(Math.abs(lx) + Math.abs(ly) + Math.abs(rx), 1);
 
             if (gamepadRateLimit.hasExpired() && gamepad1.a) {
-                if (currentPower == highPower) {
-                    currentPower = lowPower;
-                } else {
+                if (currentPower == lowPower) {
                     currentPower = highPower;
+                } else {
+                    currentPower = lowPower;
                 }
 
                 gamepadRateLimit.reset();
