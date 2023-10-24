@@ -7,6 +7,8 @@ if you have any questions feel free to reach out.
 
 ## Tutorials
 
+- [Full FTC programming tutorial playlist](https://www.youtube.com/watch?v=EV5ElPDFETs&list=PLhqDubf6eM9bKmHPJagfKZZixygyVt3QG).
+
 1. [Android Studio](https://www.youtube.com/watch?v=EV5ElPDFETs).
 2. [TeleOp Program Structure](https://www.youtube.com/watch?v=HurIL-iAeNc).
 3. [`DcMotorSimple`](https://www.youtube.com/watch?v=-5n-uBSMpQM).
