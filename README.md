@@ -19,6 +19,9 @@ if you have any questions feel free to reach out.
 8. [Drive Power Scaling](https://www.youtube.com/watch?v=CkzCgtoeUMs).
 9. [`Deadline` & Drive Power Toggling](https://www.youtube.com/watch?v=06dOk1S6oEg).
 10. [`IMU`](https://www.youtube.com/watch?v=X-osmWpKnaE).
+11. [Field Centric Drive](https://www.youtube.com/watch?v=4rG5G9Mjw-g).
+12. [Resetting the `IMU`](https://www.youtube.com/watch?v=FJOLwucKipQ).
+13. ['telemetry'](https://www.youtube.com/watch?v=f_xXkO1jpKw).
 
 ## Examples
 
