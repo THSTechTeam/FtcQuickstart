@@ -17,7 +17,7 @@ public class MotorEncoderConfig extends LinearOpMode {
         int ARM_BACK_POSITION = 300;
 
         DcMotor test = hardwareMap.get(DcMotor.class, "test");
-        test.runMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        test.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         test.setPower(0.2);
         
         waitForStart();
