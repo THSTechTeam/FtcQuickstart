@@ -21,7 +21,7 @@ if you have any questions feel free to reach out.
 10. [`IMU`](https://www.youtube.com/watch?v=X-osmWpKnaE).
 11. [Field Centric Drive](https://www.youtube.com/watch?v=4rG5G9Mjw-g).
 12. [Resetting the `IMU`](https://www.youtube.com/watch?v=FJOLwucKipQ).
-13. ['telemetry'](https://www.youtube.com/watch?v=f_xXkO1jpKw).
+13. ['telemetry'](https://www.youtube.com/watch?v=c5YIUqTCyq8).
 
 ## Examples
 
