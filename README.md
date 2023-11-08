@@ -23,6 +23,8 @@ if you have any questions feel free to reach out.
 12. [Resetting the `IMU`](https://www.youtube.com/watch?v=FJOLwucKipQ).
 13. ['telemetry'](https://www.youtube.com/watch?v=c5YIUqTCyq8).
 14. [Autonomous Program Structure](https://www.youtube.com/watch?v=Dd0fWPSWPMM).
+15. [Auto by `ElapsedTime`](https://www.youtube.com/watch?v=EOXZsc7rNik).
+16. [Storing `Gamepad` State](https://www.youtube.com/watch?v=gBPH7iOCd3Q).
 
 ## Examples
 
