@@ -29,7 +29,7 @@ public class DrivePowerToggle extends LinearOpMode {
 
         while (opModeIsActive()) {
             double lx = gamepad1.left_stick_x;
-            double ly = gamepad1.left_stick_y;
+            double ly = -gamepad1.left_stick_y;
             double rx = gamepad1.right_stick_x;
 
             double max = Math.max(Math.abs(lx) + Math.abs(ly) + Math.abs(rx), 1);
