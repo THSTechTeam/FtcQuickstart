@@ -8,20 +8,20 @@ import com.qualcomm.robotcore.hardware.DcMotorSimple;
 public class BasicAuto extends LinearOpMode {
     @Override
     public void runOpMode() {
-        DcMotorSimple frontLeft = hardwareMap.get(DcMotorSimple.class, "frontLeft");
-        DcMotorSimple backLeft = hardwareMap.get(DcMotorSimple.class, "backLeft");
-        DcMotorSimple frontRight = hardwareMap.get(DcMotorSimple.class, "frontRight");
-        DcMotorSimple backRight = hardwareMap.get(DcMotorSimple.class, "backRight");
+        DcMotorSimple leftFront = hardwareMap.get(DcMotorSimple.class, "leftFront");
+        DcMotorSimple leftBack = hardwareMap.get(DcMotorSimple.class, "leftBack");
+        DcMotorSimple rightFront = hardwareMap.get(DcMotorSimple.class, "rightFront");
+        DcMotorSimple rightBack = hardwareMap.get(DcMotorSimple.class, "rightBack");
 
-        frontLeft.setDirection(DcMotorSimple.Direction.REVERSE);
-        backLeft.setDirection(DcMotorSimple.Direction.REVERSE);
+        leftFront.setDirection(DcMotorSimple.Direction.REVERSE);
+        leftBack.setDirection(DcMotorSimple.Direction.REVERSE);
 
         waitForStart();
 
-        frontLeft.setPower(0.5);
-        backLeft.setPower(0.5);
-        frontRight.setPower(0.5);
-        backRight.setPower(0.5);
+        leftFront.setPower(0.5);
+        leftBack.setPower(0.5);
+        rightFront.setPower(0.5);
+        rightBack.setPower(0.5);
 
         sleep(500);
 
