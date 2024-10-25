@@ -11,19 +11,23 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 public class MotorEncoderConfig extends LinearOpMode {
     @Override
     public void runOpMode() {
+        //Set arm positions for the arm
         int ARM_POSITION_ZERO = 0;
         int ARM_MID_POSITION = 100;
         int ARM_HIGH_POSITION = 200;
         int ARM_BACK_POSITION = 300;
 
+        //Maping the motor as one using encoders to go to positions
         DcMotor test = hardwareMap.get(DcMotor.class, "test");
         test.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        //Seting the speed/power of the motor
         test.setPower(0.2);
         
         waitForStart();
 
         while (opModeIsActive() && !gamepad1.a) {
             if (gamepad2.a) {
+                //Sets the position of the arm to preset position
                 test.setTargetPosition(ARM_POSITION_ZERO);
             } else if (gamepad2.b) {
                 test.setTargetPosition(ARM_MID_POSITION);
@@ -33,6 +37,7 @@ public class MotorEncoderConfig extends LinearOpMode {
                 test.setTargetPosition(ARM_BACK_POSITION);
             }
 
+            //Telementary stating motor power, target position, and current position
             telemetry.clearAll();
             telemetry.addData("Current motor power: ", test.getPower());
             telemetry.addData("Current target position: ", test.getTargetPosition());
